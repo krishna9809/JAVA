@@ -6,7 +6,6 @@ public class Simple{
    String color;
 
    public void voice(){
-       System.out.println("brake");
-   }
+       System.out.println("Hello Eveyone!");
    
 }  
