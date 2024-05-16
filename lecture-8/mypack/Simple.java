@@ -7,5 +7,5 @@ public class Simple{
 
    public void voice(){
        System.out.println("Hello Eveyone!");
-   
 }  
+}
