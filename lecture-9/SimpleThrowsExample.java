@@ -4,10 +4,20 @@
 public class SimpleThrowsExample {
     public static void main(String[] args) {
 
-       
+        int a = 10;
+
+        try{
+        divide(a);
+        }
+        catch(ArithmeticException e){
+            System.out.println("Arithmetic Exception Occur" + e.fillInStackTrace());
+        }
     }
 
-    public static void checkAge(int age) throws Exception{
-       
+    static int divide(int a) throws ArithmeticException{
+        return a/0;
     }
+
+
+  
 }
