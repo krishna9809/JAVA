@@ -5,6 +5,7 @@ import java.io.InputStream;
 public class FileReadExample {
     public static void main(String[] args) {
         String fileName = "example.txt";
+        
         InputStream inputStream = null;
 
         try {
