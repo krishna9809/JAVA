@@ -8,6 +8,7 @@ public class input {
 
         
         String userName = myObj.next();  // Read user input
-        System.out.println("Username is: " + userName);  
+        System.out.println("Username is: " + userName); 
+        System.out.println(myObj); 
     }
 }
